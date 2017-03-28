@@ -1,0 +1,15 @@
+---
+title: "Homework 02"
+output: html_document
+---
+
+```{R hw}
+
+library(data.table)
+
+PoliceData <- read.csv('CrimeData.csv')
+
+head(PoliceData)
+
+
+```

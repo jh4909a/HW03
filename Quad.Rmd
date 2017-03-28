@@ -1,0 +1,30 @@
+---
+title: "Quadratic Equation Homework"
+output: html_document
+---
+
+
+``` {r lakdjf} 
+source('~/Stat370/qscript.R')
+x<-seq(from=-10, to=10, by=.1)
+y <- quad(x)
+plot(x,y,'l')
+lines(x,y, col="red")
+y2 <- quad(x,a=1)
+lines(x,y2, col="blue")
+y3 <- quad(x,b=1)
+lines(x,y3, col="green")
+y4 <- quad(x,c=1)
+lines(x,y4, col="yellow")
+y5 <- quad(x,a=1,b=1)
+lines(x,y5, col="orange")
+y6 <- quad(x,b=1,c=1)
+lines(x,y6, col="purple")
+y7 <- quad(x,a=1,c=1)
+lines(x,y7, col="black")
+```
+
+## Quadratic Equations Explanation
+
+This graph shows the different graphs possible of the quadratic equation. When a, b, and c are all 0, the quadratic equation graph will have a vertex at (0,0). When b=1, the graph becomes a line. When a=1, it becomes skinnier. When c=1, the graph becomes a horizontal line at y=1. When a and b are 1, the graph moves down and to the left. When b and c are 1, the graph becomes a line moved to the left. When a and c are 1, the graph moves up.
+

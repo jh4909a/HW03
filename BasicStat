@@ -1,0 +1,34 @@
+Commands:
+pnorm= gives you the probability
+rbinom
+pt= density function; gives you the height of the curve
+rnorm= generates random variables
+
+Command for a t test:
+x = rnorm(any number)
+y = rnorm(any number)
+t.test(x,y)
+
+Command for a Paired t-test:
+two variables measured on the same situation
+ex. of two people on the same diet
+t.test(x,y,paired=TRUE)
+
+Command for a one sample t-test:
+t.test(x,mu=0)
+to test to see if the mean is 0
+
+To pull from one that has already been done:
+Assign the one you have already done to V
+V$p.value
+
+Definitions:
+p=probability
+d=density
+q=quantile
+r=random
+null hypothesis= the means are equal
+
+Examples:
+dnorm(-1)
+  .2419707
